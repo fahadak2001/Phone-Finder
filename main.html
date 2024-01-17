@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Finder</title>
+    <!-- link icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>Phone Finder</header>
+
+        <div class="progress-bar">
+            <div class="step">
+                <div class="name">Personal</div>
+                <div class="number"><span>1</span></div>
+                <i class='bx bx-check'></i>
+            </div>
+
+            <div class="step">
+                <div class="name">Camera</div>
+                <div class="number"><span>2</span></div>
+                <i class='bx bx-check'></i>
+            </div>
+
+            <div class="step">
+                <div class="name">CPU Info</div>
+                <div class="number"><span>3</span></div>
+                <i class='bx bx-check'></i>
+            </div>
+
+            <div class="step">
+                <div class="name">Price</div>
+                <div class="number"><span>4</span></div>
+                <i class='bx bx-check'></i>
+            </div>
+        </div>
+
+        <div class="form-outer">
+            <form action="#">
+                <div class="slide">
+                    <div class="title">Basic Info :</div>
+                    <div class="field">
+                        <div class="label">Name</div>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <div class="label">Email</div>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <button class="next">Next</button>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="title">Camera Info :</div>
+                    <div class="field">
+                        <div class="label">Selfie Usage on 1-10</div>
+                        <input id="input1" type="number" min="0" max="10">
+                    </div>
+                    <div class="field">
+                        <div class="label">Back Camera Usage on 1-10></div>
+                        <input id="input1" type="number" min="0" max="10">
+                    </div>
+                    <div class="field btns">
+                        <button id="prev0">Previous</button>
+                        <button class="next">Next</button>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="title">CPU</div>
+                    <div class="field">
+                        <div class="label">Gaming on 1-10</div>
+                        <input id="input1" type="number" min="0" max="10">
+                    </div>
+                    <div class="field">
+                        <div class="label">Work Usage on 1-10</div>
+						<input id="input1" type="number" min="0" max="10">
+                    </div>
+                    <div class="field btns">
+                        <button id="prev1">Previous</button>
+                        <button class="next">Next</button>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="title">Price Range :</div>
+                    <div class="field">
+                        <div class="label">Price factor on 1-10</div>
+                        <input type="number" id="input1" min="0" max="10">
+                    </div>
+                    <div class="field">
+                        <div class="label">phone droping on daily basis 1-10</div>
+                        <input type="number" id="input1" min="0" max="10">
+                    </div>
+                    <div class="field btns">
+                        <button id="prev2">Previous</button>
+                        <button class="submit" onclick = sub_func()>Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- link js  -->
+    <script src="function.js"></script>
+</body>
+
+</html>
