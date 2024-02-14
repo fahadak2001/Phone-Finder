@@ -1,0 +1,62 @@
+[
+	{
+		"ID" : 1,
+		"NAME" : "realmeC67",
+		"SELFIE_RATING" : 8,
+		"CAMERA_RATING" : 9,
+		"GAMING_RATING" : 9,
+		"WORK_RATING" : 9,
+		"PRICE" : 45000,
+		"DROP_RATING" : 9,
+		"IMG" : "https://images.priceoye.pk/realme-c67-pakistan-priceoye-pack3-500x500.webp"
+	},
+	{
+		"ID" : 2,
+		"NAME" : "realmeC53",
+		"SELFIE_RATING" : 5,
+		"CAMERA_RATING" : 6,
+		"GAMING_RATING" : 4,
+		"WORK_RATING" : 7,
+		"PRICE" : 34999,
+		"DROP_RATING" : 6,
+		"IMG" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUzuT2LunQXTlpdLpfoQOsJh4ANbMJ1PozZQ&usqp=CAU"
+	}
+	,
+	{
+		"ID" : 2,
+		"NAME" : "realmeC51",
+		"SELFIE_RATING" : 5,
+		"CAMERA_RATING" : 6,
+		"GAMING_RATING" : 3,
+		"WORK_RATING" : 6,
+		"PRICE" : 25000,
+		"DROP_RATING" : 5,
+		"IMG" : "https://technicafive.com/wp-content/uploads/2023/11/Realme-C51-1.png"
+	}
+	,
+	{
+		"ID" : 2,
+		"NAME" : "Redmi A2",
+		"SELFIE_RATING" : 4,
+		"CAMERA_RATING" : 4,
+		"GAMING_RATING" : 4,
+		"WORK_RATING" : 4,
+		"PRICE" : 20000,
+		"DROP_RATING" : 6,
+		"IMG" : "https://xiaomisale.com/cdn/shop/products/redmi-a2-813653_grande.jpg?v=1693731787"
+	}
+	,
+	{
+		"ID" : 2,
+		"NAME" : "redmi 13c",
+		"SELFIE_RATING" : 8,
+		"CAMERA_RATING" : 8,
+		"GAMING_RATING" : 9,
+		"WORK_RATING" : 9,
+		"PRICE" : 34999,
+		"DROP_RATING" : 8,
+		"IMG" : "https://xiaomisale.com/cdn/shop/products/redmi-13c-6gb-128gb-323188_grande.jpg?v=1701952316"
+	}
+	
+]
+   
