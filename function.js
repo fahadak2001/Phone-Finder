@@ -186,7 +186,7 @@ function func_inp(){
 //range
 getRange = document.querySelector(".rangee");
 
-getRange.addEventListener("click",putRange);
+getRange.addEventListener("input",putRange);
 
 var getRangeValue = document.querySelector('#a6');
 var getRangeValuee = document.querySelector('#i81');
